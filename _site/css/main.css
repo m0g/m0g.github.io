@@ -5,7 +5,7 @@ html, body {
 }
 
 body {
-  font-family: 'Inconsolata', Monospace;
+  font-family: 'Roboto Mono', Monospace;
   background: #222;
   color: #ddd;
   position: relative;
@@ -24,4 +24,14 @@ ul, li {
 
 a {
   color: #8080FB;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 6em;
+  line-height: 1em;
+
+  /* text inset shadow: https://jsfiddle.net/mbHB4/3/ */
+  color: rgba(230, 230, 230, 0.8);
+  text-shadow: 1px 4px 6px #222, 0 0 0 #000, 1px 4px 6px #222;
 }
